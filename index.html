@@ -1,0 +1,64 @@
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title></title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src="lib/jquery-1.11.3.min.js"></script>
+    <script src="lib/lodash-3.10.1.min.js"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.2/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.2/mapbox-gl.css' rel='stylesheet' />
+    <style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<div id='map'></div>
+<script>
+    var baptisteryData = [];
+
+    function loadData(file) {
+        return $.getJSON(file, function (jsonData) {
+            baptisteryData.push(jsonData);
+        });
+    }
+
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZGtlbGxlbmIiLCJhIjoiY2lpbGdld2lmMDA1MnZ2bTA2NmdqNDAwYiJ9.1K0rKKz8DHBBJ21HW4LfHA';
+    var map = new mapboxgl.Map({
+        container: 'map', // container id
+        style: 'mapbox://styles/dkellenb/ciilnhylv008ealkirex8z0ia', //stylesheet location
+        center: [8.4665039, 47.3775498], // starting position
+        zoom: 6 // starting zoom
+    });
+
+    map.on('style.load', function () {
+        $.when(loadData("data/france.json")).done(function () {
+            map.addSource("markers", {
+                "type": "geojson",
+                "data": baptisteryData[0].geojson
+            });
+
+            map.addLayer({
+                "id": "markers",
+                "type": "symbol",
+                "source": "markers",
+                "layout": {
+                    "icon-image": "monument-24",
+                    "text-field": "{name}",
+                    "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+                    "text-offset": [0.6, 0],
+                    "text-anchor": "left"
+                },
+                "paint": {
+                    "text-size": 12
+                }
+            });
+        });
+    });
+
+
+</script>
+
+</body>
+</html>
