@@ -47,14 +47,14 @@
                 "icon-color": "#ff0000",
                 "icon-allow-overlap": "true",
                 "icon-ignore-placement": "true",
-                "text-field": "{shortname}",
-                "text-size": 14,
+                "text-field": "{booknr}",
+                "text-size": 16,
                 "text-justify": "left",
                 "text-anchor": "left",
-                "text-rotate": 25,
+                "text-rotate": 0,
                 "text-allow-overlap": true,
                 "text-ignore-placement": "true",
-                "text-offset": [0.6, -0.3],
+                "text-offset": [0.6, 0],
                 "text-font": ["DIN Offc Pro Cond Medium"]
             },
             "paint": {
@@ -77,8 +77,8 @@
     };
 
     map.on('style.load', function () {
-        addDataOnMap('baptistry-france-confirmed', 'data/france.json', filterByConfirmed("true"), '#000000', '-red');
         addDataOnMap('baptistry-france-unconfirmed', 'data/france.json', filterByConfirmed("false"), '#666666', '');
+        addDataOnMap('baptistry-france-confirmed', 'data/france.json', filterByConfirmed("true"), '#000000', '-red');
 
         /*
         $.when(addSource("markers", "data/france.json")).done(function () {
