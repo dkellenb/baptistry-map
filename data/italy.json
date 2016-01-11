@@ -1,0 +1,12 @@
+{
+    "type": "FeatureCollection",
+    "name": "Baptistries in Italy",
+    "features": [
+      { "id": "I-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.317491, 45.737991] }, "properties": { "nr": "101", "booknr": "101", "confirmed": "true", "name": "Aoste", "shortname": "Aoste" } },
+      { "id": "I-02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.213108, 45.704569] }, "properties": { "nr": "102", "booknr": "102", "confirmed": "true", "name": "Villeneuve", "shortname": "Villeneuve" } },
+      { "id": "I-03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.82744, 45.818295] }, "properties": { "nr": "112", "booknr": "112", "confirmed": "true", "name": "Varese", "shortname": "Varese" } },
+      { "id": "I-04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.084234, 45.809589] }, "properties": { "nr": "113", "booknr": "113", "confirmed": "true", "name": "Como", "shortname": "Como" } },
+      { "id": "I-05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.304716, 46.141095] }, "properties": { "nr": "114", "booknr": "114", "confirmed": "true", "name": "Gravedona", "shortname": "Gravedona" } },
+      { "id": "I-06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.406337, 46.321445] }, "properties": { "nr": "115", "booknr": "115", "confirmed": "true", "name": "Chiavenna", "shortname": "Chiavenna" } }
+    ]
+  }

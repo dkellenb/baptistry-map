@@ -1,0 +1,23 @@
+{
+    "type": "FeatureCollection",
+    "name": "Baptistries in Germany",
+    "features": [
+      { "id": "D-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [6.083486, 50.774703] }, "properties": { "nr": "127", "booknr": "127", "confirmed": "true", "name": "Aachen", "shortname": "Aachen" } },
+      { "id": "D-02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.590739, 50.2314] }, "properties": { "nr": "128", "booknr": "128", "confirmed": "true", "name": "Boppard", "shortname": "Boppard" } },
+      { "id": "D-03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [6.643962, 49.759692] }, "properties": { "nr": "129", "booknr": "129", "confirmed": "true", "name": "Trier", "shortname": "Trier" } },
+      { "id": "D-04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [6.95914, 50.941407] }, "properties": { "nr": "130", "booknr": "130", "confirmed": "true", "name": "Köln", "shortname": "Köln" } },
+      { "id": "D-05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.441051, 49.317388] }, "properties": { "nr": "131", "booknr": "131", "confirmed": "true", "name": "Speyer", "shortname": "Speyer" } },
+      { "id": "D-06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.895369, 48.372747] }, "properties": { "nr": "132", "booknr": "132", "confirmed": "true", "name": "Augsburg", "shortname": "Augsburg" } },
+      { "id": "D-07", "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.047436, 51.895808] }, "properties": { "nr": "133", "booknr": "133", "confirmed": "true", "name": "Halberstadt", "shortname": "Halberstadt" } },
+      { "id": "D-08", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.848442, 48.382304] }, "properties": { "nr": "134", "booknr": "134", "confirmed": "true", "name": "Schuttern", "shortname": "Schuttern" } },
+      { "id": "D-09", "type": "Feature", "geometry": { "type": "Point", "coordinates": [6.099034, 50.927026] }, "properties": { "nr": "135", "booknr": "135", "confirmed": "true", "name": "Palenberg", "shortname": "Palenberg" } },
+      { "id": "D-10", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.707744, 53.283464] }, "properties": { "nr": "136", "booknr": "136", "confirmed": "true", "name": "Tostedt Niedersachsen", "shortname": "Tostedt Niedersachsen" } },
+      { "id": "D-11", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.707452, 50.868257] }, "properties": { "nr": "137", "booknr": "137", "confirmed": "true", "name": "Bad Hersfeld", "shortname": "Bad Hersfeld" } },
+      { "id": "D-12", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.236223, 51.120294] }, "properties": { "nr": "138", "booknr": "138", "confirmed": "true", "name": "Büraberg bei Frizlar", "shortname": "Büraberg bei Frizlar" } },
+      { "id": "D-13", "type": "Feature", "geometry": { "type": "Point", "coordinates": [5.97374, 51.822953] }, "properties": { "nr": "139", "booknr": "139", "confirmed": "true", "name": "Zyfflich", "shortname": "Zyfflich" } },
+      { "id": "D-14", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.949319, 52.151694] }, "properties": { "nr": "140", "booknr": "140", "confirmed": "true", "name": "Hildesheim", "shortname": "Hildesheim" } },
+      { "id": "D-15", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.27475, 49.998786] }, "properties": { "nr": "141", "booknr": "141", "confirmed": "true", "name": "Meinz", "shortname": "Meinz" } },
+      { "id": "D-16", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.885567, 48.049448] }, "properties": { "nr": "142", "booknr": "142", "confirmed": "true", "name": "Sandau bei Landsberg", "shortname": "Sandau bei Landsberg" } },
+      { "id": "D-17", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.645406, 51.866632] }, "properties": { "nr": "143", "booknr": "143", "confirmed": "true", "name": "Wittenberg Lutherstadt", "shortname": "Wittenberg Lutherstadt" } }
+    ]
+  }

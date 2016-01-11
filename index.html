@@ -30,7 +30,7 @@
             map.addSource(identification, {
                 "type": "geojson",
                 "data": jsonData,
-                "buffer": 512
+                "buffer": 1024
             });
         });
     }
@@ -48,11 +48,11 @@
                 "icon-color": "#ff0000",
                 "icon-allow-overlap": "true",
                 "icon-ignore-placement": "true",
-                "text-field": "{booknr}",
-                "text-size": 16,
+                "text-field": "{shortname}",
+                "text-size": 14,
                 "text-justify": "left",
                 "text-anchor": "left",
-                "text-rotate": 0,
+                "text-rotate": -25,
                 "text-allow-overlap": true,
                 "text-ignore-placement": "true",
                 "text-offset": [0.6, 0],
@@ -83,6 +83,11 @@
     map.on('style.load', function () {
         addDataOnMap('baptistry-france-unconfirmed', 'data/france.json', filterByConfirmed("false"), '#666666', '');
         addDataOnMap('baptistry-france-confirmed', 'data/france.json', filterByConfirmed("true"), '#000000', '-red');
+        addDataOnMap('baptistry-italy-confirmed', 'data/italy.json', filterByConfirmed("true"), '#000000', '-red');
+        addDataOnMap('baptistry-austria-confirmed', 'data/austria.json', filterByConfirmed("true"), '#000000', '-red');
+        addDataOnMap('baptistry-germany-confirmed', 'data/germany.json', filterByConfirmed("true"), '#000000', '-red');
+        addDataOnMap('baptistry-liechtenstein-confirmed', 'data/liechtenstein.json', filterByConfirmed("true"), '#000000', '-red');
+        addDataOnMap('baptistry-switzerland-confirmed', 'data/switzerland.json', filterByConfirmed("true"), '#000000', '-red');
     });
 
     // When a click event occurs near a marker icon, open a popup at the location of

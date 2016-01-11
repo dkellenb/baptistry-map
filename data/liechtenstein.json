@@ -1,0 +1,7 @@
+{
+    "type": "FeatureCollection",
+    "name": "Baptistries in Liechtenstein",
+    "features": [
+      { "id": "FL-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.511527, 47.166562] }, "properties": { "nr": "118", "booknr": "118", "confirmed": "true", "name": "Schaan", "shortname": "Schaan" } }
+    ]
+  }

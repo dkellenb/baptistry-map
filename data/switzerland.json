@@ -1,0 +1,19 @@
+{
+    "type": "FeatureCollection",
+    "name": "Baptistries in Switzerland",
+    "features": [
+      { "id": "CH-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.073732, 46.10027] }, "properties": { "nr": "103", "booknr": "103", "confirmed": "true", "name": "Martigny", "shortname": "Martigny" } },
+      { "id": "CH-02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.003947, 46.219371] }, "properties": { "nr": "104", "booknr": "104", "confirmed": "true", "name": "St. Maurice", "shortname": "St. Maurice" } },
+      { "id": "CH-03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.978128, 46.311021] }, "properties": { "nr": "105", "booknr": "105", "confirmed": "true", "name": "Glis", "shortname": "Glis" } },
+      { "id": "CH-04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [6.635036, 46.522673] }, "properties": { "nr": "106", "booknr": "106", "confirmed": "true", "name": "Lausanne", "shortname": "Lausanne" } },
+      { "id": "CH-05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [6.148312, 46.201171] }, "properties": { "nr": "107", "booknr": "107", "confirmed": "true", "name": "Genève ", "shortname": "Genève " } },
+      { "id": "CH-06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [6.202421, 46.221367] }, "properties": { "nr": "108", "booknr": "108", "confirmed": "true", "name": "Vandoeuvre", "shortname": "Vandoeuvre" } },
+      { "id": "CH-07", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.724083, 47.541464] }, "properties": { "nr": "109", "booknr": "109", "confirmed": "true", "name": "Kaiseraugst", "shortname": "Kaiseraugst" } },
+      { "id": "CH-08", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.300501, 47.585366] }, "properties": { "nr": "110", "booknr": "110", "confirmed": "true", "name": "Zurzach", "shortname": "Zurzach" } },
+      { "id": "CH-09", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.970552, 45.904424] }, "properties": { "nr": "111", "booknr": "111", "confirmed": "true", "name": "Riva San Vitale", "shortname": "Riva San Vitale" } },
+      { "id": "CH-10", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.441281, 46.634343] }, "properties": { "nr": "116", "booknr": "116", "confirmed": "true", "name": "Zillis", "shortname": "Zillis" } },
+      { "id": "CH-11", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.444829, 46.691875] }, "properties": { "nr": "117", "booknr": "117", "confirmed": "true", "name": "Hohenrätien bei Thusis", "shortname": "Hohenrätien bei Thusis" } },
+      { "id": "CH-12", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.856547, 46.706646] }, "properties": { "nr": "119", "booknr": "119", "confirmed": "true", "name": "Disentis ", "shortname": "Disentis " } },
+      { "id": "CH-13", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.137854, 46.780485] }, "properties": { "nr": "120", "booknr": "120", "confirmed": "true", "name": "Jörgenberg", "shortname": "Jörgenberg" } }
+    ]
+  }

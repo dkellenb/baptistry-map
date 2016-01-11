@@ -1,0 +1,12 @@
+{
+    "type": "FeatureCollection",
+    "name": "Baptistries in Austria",
+    "features": [
+      { "id": "A-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [16.861606, 48.113154] }, "properties": { "nr": "121", "booknr": "121", "confirmed": "true", "name": "Carnuntum", "shortname": "Carnuntum" } },
+      { "id": "A-02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [16.359641, 48.254176] }, "properties": { "nr": "122", "booknr": "122", "confirmed": "true", "name": "Wein Heiligenstadt", "shortname": "Wein Heiligenstadt" } },
+      { "id": "A-03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.835918, 46.795381] }, "properties": { "nr": "123", "booknr": "123", "confirmed": "true", "name": "Lavant im Osttirol", "shortname": "Lavant im Osttirol" } },
+      { "id": "A-04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.654448, 46.698816] }, "properties": { "nr": "124", "booknr": "124", "confirmed": "true", "name": "Duel Parternion-Feistritz", "shortname": "Duel Parternion-Feistritz" } },
+      { "id": "A-05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [14.667711, 46.552798] }, "properties": { "nr": "125", "booknr": "125", "confirmed": "true", "name": "Hemmaberg", "shortname": "Hemmaberg" } },
+      { "id": "A-06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.564151, 47.137922] }, "properties": { "nr": "126", "booknr": "126", "confirmed": "true", "name": "Landeck", "shortname": "Landeck" } }
+    ]
+  }
