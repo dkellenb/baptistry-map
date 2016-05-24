@@ -5,7 +5,7 @@
       { "id": "B-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [5.464017, 50.780768] }, "properties": { "nr": "B1", "booknr": "", "confirmed": "true", "name": "Tongres", "shortname": "Tongres" } },
       { "id": "B-02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [5.583109, 50.647658] }, "properties": { "nr": "B2", "booknr": "", "confirmed": "true", "name": "Liège Saint Barthélemy", "shortname": "Liège" } },
       { "id": "B-03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [5.574193, 50.642817] }, "properties": { "nr": "B3", "booknr": "", "confirmed": "true", "name": "Liège Collégiale Saint-Denis", "shortname": "Liège" } },
-      { "id": "B-04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [4.390957, 50.839263] }, "properties": { "nr": "B4-8", "booknr": "", "confirmed": "true", "name": "Bruxelles, Musée du cinquantenaire ", "shortname": "Bruxelles (6x)" } },
+      { "id": "B-04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [4.390957, 50.839263] }, "properties": { "nr": "B4-8", "booknr": "", "confirmed": "true", "name": "Bruxelles, Musée du cinquantenaire ", "shortname": "Bruxelles (5x)" } },
       { "id": "B-09", "type": "Feature", "geometry": { "type": "Point", "coordinates": [4.773047, 50.780586] }, "properties": { "nr": "B9", "booknr": "", "confirmed": "true", "name": "Beauvechain", "shortname": "Beauvechain" } },
       { "id": "B-10", "type": "Feature", "geometry": { "type": "Point", "coordinates": [4.603115, 50.581442] }, "properties": { "nr": "B10", "booknr": "", "confirmed": "true", "name": "Chastre, Gentinnes", "shortname": "Chastre, Gentinnes" } },
       { "id": "B-11", "type": "Feature", "geometry": { "type": "Point", "coordinates": [4.525967, 50.337522] }, "properties": { "nr": "B9", "booknr": "", "confirmed": "true", "name": "Gerpinnes", "shortname": "Gerpinnes" } },
@@ -13,6 +13,7 @@
       { "id": "B-13", "type": "Feature", "geometry": { "type": "Point", "coordinates": [5.455837, 49.854539] }, "properties": { "nr": "B9", "booknr": "", "confirmed": "true", "name": "Neufchâteau, Longlier", "shortname": "Neufchâteau" } },
       { "id": "B-14", "type": "Feature", "geometry": { "type": "Point", "coordinates": [5.412109, 50.529875] }, "properties": { "nr": "B9", "booknr": "", "confirmed": "true", "name": "Nandrin, Saint-Séverin-en-Condrox", "shortname": "Nandrin" } },
       { "id": "B-15", "type": "Feature", "geometry": { "type": "Point", "coordinates": [5.811452, 50.534682] }, "properties": { "nr": "B15", "booknr": "", "confirmed": "true", "name": "Theux", "shortname": "Theux" } },
-      { "id": "B-16", "type": "Feature", "geometry": { "type": "Point", "coordinates": [4.093661, 51.032233] }, "properties": { "nr": "B16", "booknr": "", "confirmed": "true", "name": "Termonde", "shortname": "Termonde" } }
+      { "id": "B-16", "type": "Feature", "geometry": { "type": "Point", "coordinates": [4.093661, 51.032233] }, "properties": { "nr": "B16", "booknr": "", "confirmed": "true", "name": "Termonde", "shortname": "Termonde" } },
+      { "id": "B-17", "type": "Feature", "geometry": { "type": "Point", "coordinates": [3.136329, 51.143512] }, "properties": { "nr": "B17", "booknr": "", "confirmed": "true", "name": "Zedelgem", "shortname": "Zedelgem" } }
     ]
   }
