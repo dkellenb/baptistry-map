@@ -1,0 +1,183 @@
+{
+    "type": "FeatureCollection",
+    "name": "Baptistries in Italy",
+    "features": [
+      { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.189981999999986, 45.4642035] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Milano, Lombardia", "shortname": "Milano, Lombardia" } },
+      { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.23939489999998, 45.6877562] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Agliate, Lombardia", "shortname": "Agliate, Lombardia" } },
+      { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.859408600000052, 45.860249] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Arcisate, Lombardia", "shortname": "Arcisate, Lombardia" } },
+      { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.73597319999999, 45.6893366] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Arsago Seprio, Lombardia", "shortname": "Arsago Seprio, Lombardia" } },
+      { "id": "05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.677269799999976, 45.6982642] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "true", "name": "Bergamo, Lombardia", "shortname": "Bergamo, Lombardia" } },
+      { "id": "06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.211801899999955, 45.5415526] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "true", "name": "Brescia, Lombardia", "shortname": "Brescia, Lombardia" } },
+      { "id": "07", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.136220200000025, 45.7336838] }, "properties": { "nr": "07", "booknr": "07", "confirmed": "true", "name": "Cantù, Lombardia", "shortname": "Cantù, Lombardia" } },
+      { "id": "08", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.290145199999984, 45.8455106] }, "properties": { "nr": "08", "booknr": "08", "confirmed": "true", "name": "Canzo, Lombardia", "shortname": "Canzo, Lombardia" } },
+      { "id": "09", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.862760799999933, 45.7168947] }, "properties": { "nr": "09", "booknr": "09", "confirmed": "true", "name": "Castel Seprio, Lombardia", "shortname": "Castel Seprio, Lombardia" } },
+      { "id": "10", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.401207099999965, 46.3271725] }, "properties": { "nr": "10", "booknr": "10", "confirmed": "true", "name": "Chiavenna, Lombardia", "shortname": "Chiavenna, Lombardia" } },
+      { "id": "11", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.085176499999989, 45.8080597] }, "properties": { "nr": "11", "booknr": "11", "confirmed": "true", "name": "Como, Lombardia", "shortname": "Como, Lombardia" } },
+      { "id": "12", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.022651099999962, 45.133249] }, "properties": { "nr": "12", "booknr": "12", "confirmed": "true", "name": "Cremona, Lombardia", "shortname": "Cremona, Lombardia" } },
+      { "id": "13", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.209105000000022, 45.8138242] }, "properties": { "nr": "13", "booknr": "13", "confirmed": "true", "name": "Erba, Lombardia", "shortname": "Erba, Lombardia" } },
+      { "id": "14", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.308567700000026, 46.1485418] }, "properties": { "nr": "14", "booknr": "14", "confirmed": "true", "name": "Gravedona, Lombardia", "shortname": "Gravedona, Lombardia" } },
+      { "id": "15", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.176508199999944, 45.9646755] }, "properties": { "nr": "15", "booknr": "15", "confirmed": "true", "name": "Isola Comanica, Lombardia", "shortname": "Isola Comanica, Lombardia" } },
+      { "id": "16", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.196780399999966, 45.9744001] }, "properties": { "nr": "16", "booknr": "16", "confirmed": "true", "name": "Lenno, Lombardia", "shortname": "Lenno, Lombardia" } },
+      { "id": "17", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.796091299999944, 45.1197952] }, "properties": { "nr": "17", "booknr": "17", "confirmed": "true", "name": "Lomello, Lombardia", "shortname": "Lomello, Lombardia" } },
+      { "id": "18", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.182450499999959, 45.6981773] }, "properties": { "nr": "18", "booknr": "18", "confirmed": "true", "name": "Mariano Comense, Lombardia", "shortname": "Mariano Comense, Lombardia" } },
+      { "id": "19", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.254461699999979, 46.25918859999999] }, "properties": { "nr": "19", "booknr": "19", "confirmed": "true", "name": "Mazzo di Valtellina, Lombardia", "shortname": "Mazzo di Valtellina, Lombardia" } },
+      { "id": "20", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.274448500000062, 45.5845001] }, "properties": { "nr": "20", "booknr": "20", "confirmed": "true", "name": "Monza, Lombardia", "shortname": "Monza, Lombardia" } },
+      { "id": "21", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.276523099999963, 46.1126863] }, "properties": { "nr": "21", "booknr": "21", "confirmed": "true", "name": "Musso, Lombardia", "shortname": "Musso, Lombardia" } },
+      { "id": "22", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.358339600000022, 45.80163169999999] }, "properties": { "nr": "22", "booknr": "22", "confirmed": "true", "name": "Oggione, Lombardia", "shortname": "Oggione, Lombardia" } },
+      { "id": "23", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.570708800000034, 45.3913606] }, "properties": { "nr": "23", "booknr": "23", "confirmed": "true", "name": "Palazzo Pigiano, Lombardia", "shortname": "Palazzo Pigiano, Lombardia" } },
+      { "id": "24", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.442779299999984, 45.4883707] }, "properties": { "nr": "24", "booknr": "24", "confirmed": "true", "name": "Ponta di Bedizzole, Lombardia", "shortname": "Ponta di Bedizzole, Lombardia" } },
+      { "id": "25", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.825057600000036, 45.82059890000001] }, "properties": { "nr": "25", "booknr": "25", "confirmed": "true", "name": "Varese, Lombardia", "shortname": "Varese, Lombardia" } },
+
+
+      { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.215611299999978, 44.0494254] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Albenga, Liguria", "shortname": "Albenga, Liguria" } },
+      { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.946255999999948, 44.4056499] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Genova, Liguria", "shortname": "Genova, Liguria" } },
+      { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.874881100000039, 43.8413972] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Riva Liguria, Liguria", "shortname": "Riva Liguria, Liguria" } },
+      { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.341621099999998, 44.1689028] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Finale Liguria, Liguria", "shortname": "Finale Liguria, Liguria" } },
+      { "id": "05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.40197539999997, 44.2081713] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "true", "name": "Noli, Liguria", "shortname": "Noli, Liguria" } },
+      { "id": "06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.7760567000000265, 43.81596709999999] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "true", "name": "Sanremo, Liguria", "shortname": "Sanremo, Liguria" } },
+      { "id": "07", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.607586399999946, 43.7912366] }, "properties": { "nr": "07", "booknr": "07", "confirmed": "true", "name": "Ventimiglia, Liguria", "shortname": "Ventimiglia, Liguria" } },
+
+
+      { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.552958100000069, 45.6771019] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Agrate Conturbia, Piemonte", "shortname": "Agrate Conturbia, Piemonte" } },
+      { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.206425699999954, 44.90075119999999] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Asti, Piemonte", "shortname": "Asti, Piemonte" } },
+      { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.505581399999983, 45.9089803] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Baveno, Piemonte", "shortname": "Baveno, Piemonte" } },
+      { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.058339700000033, 45.56288420000001] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Biella, Piemonte", "shortname": "Biella, Piemonte" } },
+      { "id": "05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.8275551000000405, 45.008885] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "true", "name": "Chieri, Piemonte", "shortname": "Chieri, Piemonte" } },
+      { "id": "06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.46317410000006, 45.6762698] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "true", "name": "Cureggio, Piemonte", "shortname": "Cureggio, Piemonte" } },
+      { "id": "07", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.384258400000022, 45.5560059] }, "properties": { "nr": "07", "booknr": "07", "confirmed": "true", "name": "Lenta, Piemonte", "shortname": "Lenta, Piemonte" } },
+      { "id": "08", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.465747899999997, 45.9442859] }, "properties": { "nr": "08", "booknr": "08", "confirmed": "true", "name": "Mergozzo Montorfano, Piemonte", "shortname": "Mergozzo Montorfano, Piemonte" } },
+      { "id": "09", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.622161199999937, 45.44692999999999] }, "properties": { "nr": "09", "booknr": "09", "confirmed": "true", "name": "Novara, Piemonte", "shortname": "Novara, Piemonte" } },
+      { "id": "10", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.671792099999948, 45.3504395] }, "properties": { "nr": "10", "booknr": "10", "confirmed": "true", "name": "San Ponso Canavese, Piemonte", "shortname": "San Ponso Canavese, Piemonte" } },
+      { "id": "11", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.829276199999981, 45.5488937] }, "properties": { "nr": "11", "booknr": "11", "confirmed": "true", "name": "Settimo Vittone, Piemonte", "shortname": "Settimo Vittone, Piemonte" } },
+
+
+      { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.205011000000013, 45.6912125] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Villeneuve, Valle d'Aosta", "shortname": "Villeneuve, Valle d'Aosta" } },
+      { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.313076200000069, 45.7349551] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Aosta, Valle d'Aosta", "shortname": "Aosta, Valle d'Aosta" } },
+
+
+      { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.237381099999993, 46.3781943] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Altenburg, Trentino – Alto Adige", "shortname": "Altenburg, Trentino – Alto Adige" } },
+      { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.568065899999965, 46.6444647] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Sabiona/Säben, Trentino – Alto Adige", "shortname": "Sabiona/Säben, Trentino – Alto Adige" } },
+      { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.242108400000006, 46.5384622] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Terlano, Trentino – Alto Adige", "shortname": "Terlano, Trentino – Alto Adige" } },
+
+
+      { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.734304000000066, 43.3040597] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Citanova, Veneto", "shortname": "Citanova, Veneto" } },
+      { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.842294000000038, 45.7572285] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Concordia Sagitaria, Veneto", "shortname": "Concordia Sagitaria, Veneto" } },
+      { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.90058369999997, 46.0178511] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Feltre, Veneto", "shortname": "Feltre, Veneto" } },
+      { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.876761100000067, 45.4064349] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Pàdova, Veneto", "shortname": "Pàdova, Veneto" } },
+      { "id": "05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.415254600000026, 45.4963063] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "true", "name": "Torcello, Veneto", "shortname": "Torcello, Veneto" } },
+      { "id": "06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.243043700000044, 45.6668893] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "true", "name": "Treviso, Veneto", "shortname": "Treviso, Veneto" } },
+      { "id": "07", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.31551509999997, 45.4408474] }, "properties": { "nr": "07", "booknr": "07", "confirmed": "true", "name": "Venezia, Veneto", "shortname": "Venezia, Veneto" } },
+      { "id": "08", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.991621500000065, 45.43838419999999] }, "properties": { "nr": "08", "booknr": "08", "confirmed": "true", "name": "Verona, Veneto", "shortname": "Verona, Veneto" } },
+      { "id": "09", "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.535421400000018, 45.5454787] }, "properties": { "nr": "09", "booknr": "09", "confirmed": "true", "name": "Vicenza, Veneto", "shortname": "Vicenza, Veneto" } },
+
+
+      { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.368719899999974, 45.76816909999999] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Aquileia, Friuli – Venezia Giulia", "shortname": "Aquileia, Friuli – Venezia Giulia" } },
+      { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.433127000000013, 46.0801447] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Cividale, Friuli – Venezia Giulia", "shortname": "Cividale, Friuli – Venezia Giulia" } },
+      { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.386399200000028, 45.6817741] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Grado, Friuli – Venezia Giulia", "shortname": "Grado, Friuli – Venezia Giulia" } },
+      { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.938129000000004, 46.40773799999999] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Invilino, Friuli – Venezia Giulia", "shortname": "Invilino, Friuli – Venezia Giulia" } },
+      { "id": "05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.262911499999973, 46.197184] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "true", "name": "Nimis, Friuli – Venezia Giulia", "shortname": "Nimis, Friuli – Venezia Giulia" } },
+      { "id": "06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.866843900000049, 46.4807459] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "true", "name": "Ovaro, Friuli – Venezia Giulia", "shortname": "Ovaro, Friuli – Venezia Giulia" } },
+      { "id": "07", "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.77681819999998, 45.6495264] }, "properties": { "nr": "07", "booknr": "07", "confirmed": "true", "name": "Trieste, Friuli – Venezia Giulia", "shortname": "Trieste, Friuli – Venezia Giulia" } },
+      { "id": "08", "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.23457940000003, 46.0710668] }, "properties": { "nr": "08", "booknr": "08", "confirmed": "true", "name": "Udine, Friuli – Venezia Giulia", "shortname": "Udine, Friuli – Venezia Giulia" } },
+      { "id": "09", "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.068499699999961, 46.1847259] }, "properties": { "nr": "09", "booknr": "09", "confirmed": "true", "name": "Majano, Friuli – Venezia Giulia", "shortname": "Majano, Friuli – Venezia Giulia" } },
+
+
+      { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.342616200000066, 44.494887] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Bologna, Emilia Romagna", "shortname": "Bologna, Emilia Romagna" } },
+      { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.870467599999984, 44.8534249] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Castell'Arquato, Emilia Romagna", "shortname": "Castell'Arquato, Emilia Romagna" } },
+      { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.179353200000037, 44.6940053] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Comaccio, Emilia Romagna", "shortname": "Comaccio, Emilia Romagna" } },
+      { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.327903600000013, 44.801485] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Parma, Emilia Romagna", "shortname": "Parma, Emilia Romagna" } },
+      { "id": "05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.20352939999998, 44.4183598] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "true", "name": "Ravenna, Emilia Romagna", "shortname": "Ravenna, Emilia Romagna" } },
+      { "id": "06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.670973000000004, 45.059244] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "true", "name": "Piacenza Borgotrebia, Emilia Romagna", "shortname": "Piacenza Borgotrebia, Emilia Romagna" } },
+
+
+      { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.25581360000001, 43.7695604] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Firenze, Toscana", "shortname": "Firenze, Toscana" } },
+      { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.495060899999999, 43.8376211] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Lucca, Toscana", "shortname": "Lucca, Toscana" } },
+      { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.228632299999958, 43.9595513] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Pietrasanta, Toscana", "shortname": "Pietrasanta, Toscana" } },
+      { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.401688799999988, 43.7228386] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Pisa, Toscana", "shortname": "Pisa, Toscana" } },
+      { "id": "05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.90785870000002, 43.9303475] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "true", "name": "Pistoia, Toscana", "shortname": "Pistoia, Toscana" } },
+      { "id": "06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.102227999999968, 43.8777049] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "true", "name": "Prato, Toscana", "shortname": "Prato, Toscana" } },
+      { "id": "07", "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.330757400000039, 43.31880899999999] }, "properties": { "nr": "07", "booknr": "07", "confirmed": "true", "name": "Sienna, Toscana", "shortname": "Sienna, Toscana" } },
+      { "id": "08", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.866033300000026, 43.399395] }, "properties": { "nr": "08", "booknr": "08", "confirmed": "true", "name": "Volterra, Toscana", "shortname": "Volterra, Toscana" } },
+
+
+      { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.110744599999975, 42.7185068] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Orvieto, Umbria", "shortname": "Orvieto, Umbria" } },
+
+
+
+      { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.574944200000004, 42.8536043] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Ascoli Picebo, Marche", "shortname": "Ascoli Picebo, Marche" } },
+      { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.915549400000032, 43.9124756] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Pesaro, Marche", "shortname": "Pesaro, Marche" } },
+
+
+
+
+      { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.496365500000024, 41.9027835] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Roma, Lazio", "shortname": "Roma, Lazio" } },
+      { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.496365500000024, 41.9027835] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Roma, Lazio", "shortname": "Roma, Lazio" } },
+      { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.496365500000024, 41.9027835] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Roma, Lazio", "shortname": "Roma, Lazio" } },
+      { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.496365500000024, 41.9027835] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Roma, Lazio", "shortname": "Roma, Lazio" } },
+      { "id": "05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.496365500000024, 41.9027835] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "true", "name": "Roma, Lazio", "shortname": "Roma, Lazio" } },
+      { "id": "06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.496365500000024, 41.9027835] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "true", "name": "Roma, Lazio", "shortname": "Roma, Lazio" } },
+      { "id": "07", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.496365500000024, 41.9027835] }, "properties": { "nr": "07", "booknr": "07", "confirmed": "true", "name": "Roma, Lazio", "shortname": "Roma, Lazio" } },
+      { "id": "08", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.496365500000024, 41.9027835] }, "properties": { "nr": "08", "booknr": "08", "confirmed": "true", "name": "Roma, Lazio", "shortname": "Roma, Lazio" } },
+      { "id": "09", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.496365500000024, 41.9027835] }, "properties": { "nr": "09", "booknr": "09", "confirmed": "true", "name": "Roma, Lazio", "shortname": "Roma, Lazio" } },
+      { "id": "10", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.496365500000024, 41.9027835] }, "properties": { "nr": "10", "booknr": "10", "confirmed": "true", "name": "Roma, Lazio", "shortname": "Roma, Lazio" } },
+      { "id": "11", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.40369869999995, 42.0820027] }, "properties": { "nr": "11", "booknr": "11", "confirmed": "true", "name": "Formello, Lazio", "shortname": "Formello, Lazio" } },
+      { "id": "12", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.496365500000024, 41.9027835] }, "properties": { "nr": "12", "booknr": "12", "confirmed": "true", "name": "Roma, Lazio", "shortname": "Roma, Lazio" } },
+      { "id": "13", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.496365500000024, 41.9027835] }, "properties": { "nr": "13", "booknr": "13", "confirmed": "true", "name": "Roma, Lazio", "shortname": "Roma, Lazio" } },
+      { "id": "14", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.496365500000024, 41.9027835] }, "properties": { "nr": "14", "booknr": "14", "confirmed": "true", "name": "Roma, Lazio", "shortname": "Roma, Lazio" } },
+      { "id": "15", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.496365500000024, 41.9027835] }, "properties": { "nr": "15", "booknr": "15", "confirmed": "true", "name": "Roma, Lazio", "shortname": "Roma, Lazio" } },
+      { "id": "16", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.496365500000024, 41.9027835] }, "properties": { "nr": "16", "booknr": "16", "confirmed": "true", "name": "Roma, Lazio", "shortname": "Roma, Lazio" } },
+      { "id": "17", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.496365500000024, 41.9027835] }, "properties": { "nr": "17", "booknr": "17", "confirmed": "true", "name": "Roma, Lazio", "shortname": "Roma, Lazio" } },
+      { "id": "18", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.496365500000024, 41.9027835] }, "properties": { "nr": "18", "booknr": "18", "confirmed": "true", "name": "Roma, Lazio", "shortname": "Roma, Lazio" } },
+      { "id": "19", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.496365500000024, 41.9027835] }, "properties": { "nr": "19", "booknr": "19", "confirmed": "true", "name": "Roma, Lazio", "shortname": "Roma, Lazio" } },
+      { "id": "20", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.496365500000024, 41.9027835] }, "properties": { "nr": "20", "booknr": "20", "confirmed": "true", "name": "Roma, Lazio", "shortname": "Roma, Lazio" } },
+      { "id": "21", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.496365500000024, 41.9027835] }, "properties": { "nr": "21", "booknr": "21", "confirmed": "true", "name": "Roma, Lazio", "shortname": "Roma, Lazio" } },
+      { "id": "22", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.496365500000024, 41.9027835] }, "properties": { "nr": "22", "booknr": "22", "confirmed": "true", "name": "Roma, Lazio", "shortname": "Roma, Lazio" } },
+      { "id": "23", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.286269400000037, 41.7311182] }, "properties": { "nr": "23", "booknr": "23", "confirmed": "true", "name": "Ostia, Lazio", "shortname": "Ostia, Lazio" } },
+      { "id": "24", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.778534700000023, 41.6868422] }, "properties": { "nr": "24", "booknr": "24", "confirmed": "true", "name": "Velletri, Lazio", "shortname": "Velletri, Lazio" } },
+
+
+      { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.589819700000021, 42.7473982] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Castel Manfrino, Abruzzo", "shortname": "Castel Manfrino, Abruzzo" } },
+
+
+      { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [14.23316120000004, 41.5960411] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Isernia, Molisse", "shortname": "Isernia, Molisse" } },
+
+
+      { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [14.268124400000033, 40.8517746] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Napoli, Campania", "shortname": "Napoli, Campania" } },
+      { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [15.129102699999976, 40.5319728] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Altavilla Silentina, Campania", "shortname": "Altavilla Silentina, Campania" } },
+      { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [14.51600899999994, 40.9454471] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Cimitile, Campania", "shortname": "Cimitile, Campania" } },
+      { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [14.053858900000023, 40.8483844] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Cuma, Campania", "shortname": "Cuma, Campania" } },
+      { "id": "05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [14.996742499999982, 41.0432362] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "true", "name": "Mirabella Eclano, Campania", "shortname": "Mirabella Eclano, Campania" } },
+      { "id": "06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [14.681506300000024, 40.7504385] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "true", "name": "Nocera Superiore, Campania", "shortname": "Nocera Superiore, Campania" } },
+      { "id": "07", "type": "Feature", "geometry": { "type": "Point", "coordinates": [15.590801499999998, 40.4019157] }, "properties": { "nr": "07", "booknr": "07", "confirmed": "true", "name": "Sala Consilina, Campania", "shortname": "Sala Consilina, Campania" } },
+
+
+      { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [16.552787399999943, 40.8253924] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Altamura Belmonte, Puglia", "shortname": "Altamura Belmonte, Puglia" } },
+      { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [16.871871499999997, 41.1171432] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Bari, Puglia", "shortname": "Bari, Puglia" } },
+      { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [16.066070699999955, 41.2224319] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Canosa, Puglia", "shortname": "Canosa, Puglia" } },
+      { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [17.390879600000062, 40.8875469] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Egnazia, Puglia", "shortname": "Egnazia, Puglia" } },
+      { "id": "05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [15.338528200000042, 41.5054806] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "true", "name": "Lucera, Puglia", "shortname": "Lucera, Puglia" } },
+      { "id": "06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [17.638879599999996, 40.4993413] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "true", "name": "Oria, Puglia", "shortname": "Oria, Puglia" } },
+      { "id": "06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [15.7291788, 41.70659] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "true", "name": "San Giovanni Rotondi, Puglia", "shortname": "San Giovanni Rotondi, Puglia" } },
+
+
+      { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [16.604319900000064, 40.666379] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Matera, Basilicata", "shortname": "Matera, Basilicata" } },
+      { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [16.81365070000004, 40.370601] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Metaponto, Basilicata", "shortname": "Metaponto, Basilicata" } },
+      { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [15.81542300000001, 40.9607672] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Venosa, Basilicata", "shortname": "Venosa, Basilicata" } },
+
+
+      { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [16.915862100000027, 39.1478065] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "San Severina, Calabria", "shortname": "San Severina, Calabria" } },
+
+
+      { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.054690899999969, 37.9739764] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Isola Marettimo, Sicilia", "shortname": "Isola Marettimo, Sicilia" } },
+      { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [15.55401519999998, 38.1938137] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Messina, Sicilia", "shortname": "Messina, Sicilia" } },
+      { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.82521769999994, 37.5833724] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Selimunte, Sicilia", "shortname": "Selimunte, Sicilia" } },
+      { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [15.286586100000022, 37.0754739] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Siracusa, Sicilia", "shortname": "Siracusa, Sicilia" } },
+
+
+      { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.508089700000028, 40.0934232] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Cornus, Sardegna", "shortname": "Cornus, Sardegna" } },
+      { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.175792099999967, 39.3772093] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Dolianova, Sardegna", "shortname": "Dolianova, Sardegna" } },
+      { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.825250200000028, 39.98276] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Fordogianus, Sardegna", "shortname": "Fordogianus, Sardegna" } },
+      { "id": "05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.441019099999949, 39.8734381] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "true", "name": "Tharos, Sardegna", "shortname": "Tharos, Sardegna" } },
+      { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.53893830000004, 39.9738175] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Nuracchi, Sardegna", "shortname": "Nuracchi, Sardegna" } }
+    ]
+  }
