@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "name": "Italy - Puglia",
+  "features": [
+
+    { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [16.552787399999943, 40.8253924] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Altamura Belmonte, Puglia", "shortname": "Altamura Belmonte" } },
+    { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [16.871871499999997, 41.1171432] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Bari, Puglia", "shortname": "Bari" } },
+    { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [16.066070699999955, 41.2224319] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Canosa, Puglia", "shortname": "Canosa" } },
+    { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [17.390879600000062, 40.8875469] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Egnazia, Puglia", "shortname": "Egnazia" } },
+    { "id": "05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [15.338528200000042, 41.5054806] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "true", "name": "Lucera, Puglia", "shortname": "Lucera" } },
+    { "id": "06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [17.638879599999996, 40.4993413] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "true", "name": "Oria, Puglia", "shortname": "Oria" } },
+    { "id": "06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [15.7291788, 41.70659] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "true", "name": "San Giovanni Rotondi, Puglia", "shortname": "San Giovanni Rotondi" } }
+
+  ]
+}

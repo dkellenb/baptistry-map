@@ -1,0 +1,9 @@
+{
+  "type": "FeatureCollection",
+  "name": "Italy - Abruzzo",
+  "features": [
+
+    { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.589819700000021, 42.7473982] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Castel Manfrino, Abruzzo", "shortname": "Castel Manfrino" } }
+
+  ]
+}

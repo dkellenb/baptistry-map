@@ -1,0 +1,16 @@
+{
+  "type": "FeatureCollection",
+  "name": "Italy - Toscana",
+  "features": [
+
+    { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.25581360000001, 43.7695604] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Firenze, Toscana", "shortname": "Firenze" } },
+    { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.495060899999999, 43.8376211] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Lucca, Toscana", "shortname": "Lucca" } },
+    { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.228632299999958, 43.9595513] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Pietrasanta, Toscana", "shortname": "Pietrasanta" } },
+    { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.401688799999988, 43.7228386] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Pisa, Toscana", "shortname": "Pisa" } },
+    { "id": "05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.90785870000002, 43.9303475] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "true", "name": "Pistoia, Toscana", "shortname": "Pistoia" } },
+    { "id": "06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.102227999999968, 43.8777049] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "true", "name": "Prato, Toscana", "shortname": "Prato" } },
+    { "id": "07", "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.330757400000039, 43.31880899999999] }, "properties": { "nr": "07", "booknr": "07", "confirmed": "true", "name": "Sienna, Toscana", "shortname": "Sienna" } },
+    { "id": "08", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.866033300000026, 43.399395] }, "properties": { "nr": "08", "booknr": "08", "confirmed": "true", "name": "Volterra, Toscana", "shortname": "Volterra" } }
+
+  ]
+}

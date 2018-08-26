@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "name": "Italy - Lugaria",
+  "features": [
+
+    { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.215611299999978, 44.0494254] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Albenga, Liguria", "shortname": "Albenga" } },
+    { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.946255999999948, 44.4056499] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Genova, Liguria", "shortname": "Genova" } },
+    { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.874881100000039, 43.8413972] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Riva Liguria, Liguria", "shortname": "Riva Liguria" } },
+    { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.341621099999998, 44.1689028] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Finale Liguria, Liguria", "shortname": "Finale Liguria" } },
+    { "id": "05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.40197539999997, 44.2081713] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "true", "name": "Noli, Liguria", "shortname": "Noli" } },
+    { "id": "06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.7760567000000265, 43.81596709999999] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "true", "name": "Sanremo, Liguria", "shortname": "Sanremo" } },
+    { "id": "07", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.607586399999946, 43.7912366] }, "properties": { "nr": "07", "booknr": "07", "confirmed": "true", "name": "Ventimiglia, Liguria", "shortname": "Ventimiglia" } }
+
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "name": "Italy - Lombardia",
+  "features": [
+    { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.189981999999986, 45.4642035] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Milano, Lombardia", "shortname": "Milano" } },
+    { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.23939489999998, 45.6877562] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Agliate, Lombardia", "shortname": "Agliate" } },
+    { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.859408600000052, 45.860249] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Arcisate, Lombardia", "shortname": "Arcisate" } },
+    { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.73597319999999, 45.6893366] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Arsago Seprio, Lombardia", "shortname": "Arsago Seprio" } },
+    { "id": "05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.677269799999976, 45.6982642] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "true", "name": "Bergamo, Lombardia", "shortname": "Bergamo" } },
+    { "id": "06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.211801899999955, 45.5415526] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "true", "name": "Brescia, Lombardia", "shortname": "Brescia" } },
+    { "id": "07", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.136220200000025, 45.7336838] }, "properties": { "nr": "07", "booknr": "07", "confirmed": "true", "name": "Cantù, Lombardia", "shortname": "Cantù" } },
+    { "id": "08", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.290145199999984, 45.8455106] }, "properties": { "nr": "08", "booknr": "08", "confirmed": "true", "name": "Canzo, Lombardia", "shortname": "Canzo" } },
+    { "id": "09", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.862760799999933, 45.7168947] }, "properties": { "nr": "09", "booknr": "09", "confirmed": "true", "name": "Castel Seprio, Lombardia", "shortname": "Castel Seprio" } },
+    { "id": "10", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.401207099999965, 46.3271725] }, "properties": { "nr": "10", "booknr": "10", "confirmed": "true", "name": "Chiavenna, Lombardia", "shortname": "Chiavenna" } },
+    { "id": "11", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.085176499999989, 45.8080597] }, "properties": { "nr": "11", "booknr": "11", "confirmed": "true", "name": "Como, Lombardia", "shortname": "Como" } },
+    { "id": "12", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.022651099999962, 45.133249] }, "properties": { "nr": "12", "booknr": "12", "confirmed": "true", "name": "Cremona, Lombardia", "shortname": "Cremona" } },
+    { "id": "13", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.209105000000022, 45.8138242] }, "properties": { "nr": "13", "booknr": "13", "confirmed": "true", "name": "Erba, Lombardia", "shortname": "Erba" } },
+    { "id": "14", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.308567700000026, 46.1485418] }, "properties": { "nr": "14", "booknr": "14", "confirmed": "true", "name": "Gravedona, Lombardia", "shortname": "Gravedona" } },
+    { "id": "15", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.176508199999944, 45.9646755] }, "properties": { "nr": "15", "booknr": "15", "confirmed": "true", "name": "Isola Comanica, Lombardia", "shortname": "Isola Comanica" } },
+    { "id": "16", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.196780399999966, 45.9744001] }, "properties": { "nr": "16", "booknr": "16", "confirmed": "true", "name": "Lenno, Lombardia", "shortname": "Lenno" } },
+    { "id": "17", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.796091299999944, 45.1197952] }, "properties": { "nr": "17", "booknr": "17", "confirmed": "true", "name": "Lomello, Lombardia", "shortname": "Lomello" } },
+    { "id": "18", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.182450499999959, 45.6981773] }, "properties": { "nr": "18", "booknr": "18", "confirmed": "true", "name": "Mariano Comense, Lombardia", "shortname": "Mariano Comense" } },
+    { "id": "19", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.254461699999979, 46.25918859999999] }, "properties": { "nr": "19", "booknr": "19", "confirmed": "true", "name": "Mazzo di Valtellina, Lombardia", "shortname": "Mazzo di Valtellina" } },
+    { "id": "20", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.274448500000062, 45.5845001] }, "properties": { "nr": "20", "booknr": "20", "confirmed": "true", "name": "Monza, Lombardia", "shortname": "Monza" } },
+    { "id": "21", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.276523099999963, 46.1126863] }, "properties": { "nr": "21", "booknr": "21", "confirmed": "true", "name": "Musso, Lombardia", "shortname": "Musso" } },
+    { "id": "22", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.358339600000022, 45.80163169999999] }, "properties": { "nr": "22", "booknr": "22", "confirmed": "true", "name": "Oggione, Lombardia", "shortname": "Oggione" } },
+    { "id": "23", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.570708800000034, 45.3913606] }, "properties": { "nr": "23", "booknr": "23", "confirmed": "true", "name": "Palazzo Pigiano, Lombardia", "shortname": "Palazzo Pigiano" } },
+    { "id": "24", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.442779299999984, 45.4883707] }, "properties": { "nr": "24", "booknr": "24", "confirmed": "true", "name": "Ponta di Bedizzole, Lombardia", "shortname": "Ponta di Bedizzole" } },
+    { "id": "25", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.825057600000036, 45.82059890000001] }, "properties": { "nr": "25", "booknr": "25", "confirmed": "true", "name": "Varese, Lombardia", "shortname": "Varese" } }
+    ]
+}

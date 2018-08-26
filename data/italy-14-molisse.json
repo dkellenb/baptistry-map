@@ -1,0 +1,9 @@
+{
+  "type": "FeatureCollection",
+  "name": "Italy - Molisse",
+  "features": [
+
+    { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [14.23316120000004, 41.5960411] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Isernia, Molisse", "shortname": "Isernia" } }
+
+  ]
+}

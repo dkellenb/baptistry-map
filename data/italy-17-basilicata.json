@@ -1,0 +1,11 @@
+{
+  "type": "FeatureCollection",
+  "name": "Italy - Basilicata",
+  "features": [
+
+    { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [16.604319900000064, 40.666379] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Matera, Basilicata", "shortname": "Matera" } },
+    { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [16.81365070000004, 40.370601] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Metaponto, Basilicata", "shortname": "Metaponto" } },
+    { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [15.81542300000001, 40.9607672] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Venosa, Basilicata", "shortname": "Venosa" } }
+
+  ]
+}

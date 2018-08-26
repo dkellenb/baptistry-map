@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "name": "Italy - Marche",
+  "features": [
+
+    { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.574944200000004, 42.8536043] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Ascoli Picebo, Marche", "shortname": "Ascoli Picebo" } },
+    { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.915549400000032, 43.9124756] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Pesaro, Marche", "shortname": "Pesaro" } }
+
+  ]
+}

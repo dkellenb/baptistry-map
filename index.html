@@ -1,119 +1,211 @@
 <html>
 <head>
-    <meta charset='utf-8' />
-    <title>Baptistries</title>
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script src="lib/jquery-1.11.3.min.js"></script>
-    <script src="lib/lodash-3.10.1.min.js"></script>
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.2/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.2/mapbox-gl.css' rel='stylesheet' />
-    <style>
-        body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:100%; }
-    </style>
+  <meta charset='utf-8'/>
+  <title>Baptistries</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no'/>
+  <script src="lib/jquery-1.11.3.min.js"></script>
+  <script src="lib/lodash-3.10.1.min.js"></script>
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.2/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.12.2/mapbox-gl.css' rel='stylesheet'/>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    #map {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
 
 <div id='map'></div>
 <script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoiZGtlbGxlbmIiLCJhIjoiY2lpbGdld2lmMDA1MnZ2bTA2NmdqNDAwYiJ9.1K0rKKz8DHBBJ21HW4LfHA';
-    var map = new mapboxgl.Map({
-        container: 'map', // container id
-        style: 'mapbox://styles/dkellenb/ciilnhylv008ealkirex8z0ia', //stylesheet location
-        center: [3.156917, 46.986742], // starting position
-        zoom: 6 // starting zoom
+  mapboxgl.accessToken = 'pk.eyJ1IjoiZGtlbGxlbmIiLCJhIjoiY2lpbGdld2lmMDA1MnZ2bTA2NmdqNDAwYiJ9.1K0rKKz8DHBBJ21HW4LfHA';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/dkellenb/cjlalgk75303z2rrty7h7tut3', //stylesheet location
+    center: [16.589819700000021, 42.7473982], // starting position
+    zoom: 8 // starting zoom
+  });
+  var hoveredStateId = null;
+
+  function addSource(identification, file, filter) {
+    return $.getJSON(file, function (jsonData) {
+      jsonData.features = _.filter(jsonData.features, filter);
+      map.addSource(identification, {
+        "type": "geojson",
+        "data": jsonData,
+        "buffer": 1024
+      });
+    });
+  }
+
+  function addLayer(identification, color, monumentExtension) {
+    map.addLayer({
+      "id": identification,
+      "source": identification,
+      "source-layer": identification,
+      "type": "symbol",
+      "interactive": true,
+      "layout": {
+        "symbol-placement": "point",
+        "icon-image": "monument" + monumentExtension + "-18",
+        "icon-color": "#ff0000",
+        "icon-allow-overlap": "true",
+        "icon-ignore-placement": "true",
+        "text-field": "{nr} {shortname}",
+        "text-size": 14,
+        "text-justify": "left",
+        "text-anchor": "left",
+        "text-rotate": 0,
+        "text-allow-overlap": true,
+        "text-ignore-placement": "true",
+        "text-offset": [0.6, 0],
+        "text-font": ["DIN Offc Pro Cond Medium"]
+      },
+      "paint": {
+        "icon-color": "#ff0000",
+        "text-color": color,
+        "text-halo-color": "#ffffff",
+        "text-halo-width": 2,
+        "text-halo-blur": 1
+      }
+    });
+  }
+
+  function addDataOnMap(identification, url, filterCondition, color, monumentExtension) {
+    $.when(addSource(identification, url, filterCondition)).done(function () {
+      addLayer(identification, color, monumentExtension);
+    });
+  }
+
+  var filterByConfirmed = function (status) {
+    return function (entry) {
+      return entry.properties.confirmed === status;
+    }
+  };
+
+  map.on('style.load', function () {
+    //addDataOnMap('baptistry-france-unconfirmed', 'data/france.json', filterByConfirmed("false"), '#666666', '');
+    // addDataOnMap('baptistry-france-confirmed', 'data/france.json', filterByConfirmed("true"), '#000000', '-red');
+    //addDataOnMap('italy', 'data/italy2.json', filterByConfirmed("true"), '#000000', '-red');
+    addDataOnMap('italy-lombardia', 'data/italy-01-lombardia.json', filterByConfirmed("true"), '#000000', '-red');
+    addDataOnMap('italy-lugaria', 'data/italy-02-lugaria.json', filterByConfirmed("true"), '#000000', '-red');
+    addDataOnMap('italy-piemonte', 'data/italy-03-piemonte.json', filterByConfirmed("true"), '#000000', '-red');
+    addDataOnMap('italy-valdaosta', 'data/italy-04-val-daosta.json', filterByConfirmed("true"), '#000000', '-red');
+    addDataOnMap('italy-trentino', 'data/italy-05-trentino.json', filterByConfirmed("true"), '#000000', '-red');
+    addDataOnMap('italy-veneto', 'data/italy-06-veneto.json', filterByConfirmed("true"), '#000000', '-red');
+    addDataOnMap('italy-friuli', 'data/italy-07-friuli.json', filterByConfirmed("true"), '#000000', '-red');
+    addDataOnMap('italy-emilia', 'data/italy-08-emilia-romagna.json', filterByConfirmed("true"), '#000000', '-red');
+    addDataOnMap('italy-toscana', 'data/italy-09-toscana.json', filterByConfirmed("true"), '#000000', '-red');
+    addDataOnMap('italy-umbria', 'data/italy-10-umbria.json', filterByConfirmed("true"), '#000000', '-red');
+    addDataOnMap('italy-marche', 'data/italy-11-marche.json', filterByConfirmed("true"), '#000000', '-red');
+    addDataOnMap('italy-lazio', 'data/italy-12-lazio.json', filterByConfirmed("true"), '#000000', '-red');
+    addDataOnMap('italy-abruzzo', 'data/italy-13-abruzzo.json', filterByConfirmed("true"), '#000000', '-red');
+    addDataOnMap('italy-molizze', 'data/italy-14-molisse.json', filterByConfirmed("true"), '#000000', '-red');
+    addDataOnMap('italy-campagnia', 'data/italy-15-campania.json', filterByConfirmed("true"), '#000000', '-red');
+    addDataOnMap('italy-puglia', 'data/italy-16-puglia.json', filterByConfirmed("true"), '#000000', '-red');
+    addDataOnMap('italy-basilicata', 'data/italy-17-basilicata.json', filterByConfirmed("true"), '#000000', '-red');
+    addDataOnMap('italy-calabria', 'data/italy-18-calabria.json', filterByConfirmed("true"), '#000000', '-red');
+    addDataOnMap('italy-sicilia', 'data/italy-19-sicilia.json', filterByConfirmed("true"), '#000000', '-red');
+    addDataOnMap('italy-sardegna', 'data/italy-20-sardegna.json', filterByConfirmed("true"), '#000000', '-red');
+
+    //addDataOnMap('baptistry-italy-confirmed', 'data/italy.json', filterByConfirmed("true"), '#000000', '-red');
+    //addDataOnMap('baptistry-austria-confirmed', 'data/austria.json', filterByConfirmed("true"), '#000000', '-red');
+    //addDataOnMap('baptistry-germany-confirmed', 'data/germany.json', filterByConfirmed("true"), '#000000', '-red');
+    //addDataOnMap('baptistry-liechtenstein-confirmed', 'data/liechtenstein.json', filterByConfirmed("true"), '#000000', '-red');
+    //addDataOnMap('baptistry-switzerland-confirmed', 'data/switzerland.json', filterByConfirmed("true"), '#000000', '-red');
+    //jaddDataOnMap('baptistry-belgium-confirmed', 'data/belgium.json', filterByConfirmed("true"), '#000000', '-red');
+
+  });
+
+  /*
+  map.on('nixda', function() {
+    map.addSource("states", {
+      "type": "geojson",
+      "data": "data/italy-regions.json"
     });
 
-    function addSource(identification, file, filter) {
-        return $.getJSON(file, function (jsonData) {
-            jsonData.features = _.filter(jsonData.features, filter);
-            map.addSource(identification, {
-                "type": "geojson",
-                "data": jsonData,
-                "buffer": 1024
-            });
-        });
-    }
+    // The feature-state dependent fill-opacity expression will render the hover effect
+    // when a feature's hover state is set to true.
+    map.addLayer({
+      "id": "state-fills",
+      "type": "fill",
+      "source": "states",
+      "layout": {},
+      "paint": {
+        "fill-color": "rgba(99,99,99,0.5)",
+        "fill-opacity": ["case",
+          ["boolean", ["feature-state", "hover"], false],
+          0.5,
+          0.0
+        ]
+      }
+    });
 
-    function addLayer(identification, color, monumentExtension) {
-        map.addLayer({
-            "id": identification,
-            "source": identification,
-            "source-layer": identification,
-            "type": "symbol",
-            "interactive": true,
-            "layout": {
-                "symbol-placement": "point",
-                "icon-image": "monument" + monumentExtension + "-18",
-                "icon-color": "#ff0000",
-                "icon-allow-overlap": "true",
-                "icon-ignore-placement": "true",
-                "text-field": "{name}",
-                "text-size": 14,
-                "text-justify": "left",
-                "text-anchor": "left",
-                "text-rotate": 30,
-                "text-allow-overlap": true,
-                "text-ignore-placement": "true",
-                "text-offset": [0.6, 0],
-                "text-font": ["DIN Offc Pro Cond Medium"]
-            },
-            "paint": {
-                "icon-color": "#ff0000",
-                "text-color": color,
-                "text-halo-color": "#ffffff",
-                "text-halo-width": 2,
-                "text-halo-blur": 1
-            }
-        });
-    }
+    map.addLayer({
+      "id": "state-borders",
+      "type": "line",
+      "source": "states",
+      "layout": {},
+      "paint": {
+        "line-color": "#184377",
+        "line-width": 2
+      }
+    });
 
-    function addDataOnMap(identification, url, filterCondition, color, monumentExtension) {
-        $.when(addSource(identification, url, filterCondition)).done(function () {
-            addLayer(identification, color, monumentExtension);
-        });
-    }
-
-    var filterByConfirmed = function (status) {
-        return function (entry) {
-            return entry.properties.confirmed === status;
+    // When the user moves their mouse over the state-fill layer, we'll update the
+    // feature state for the feature under the mouse.
+    map.on("mousemove", "state-fills", function(e) {
+      if (e.features.length > 0) {
+        if (hoveredStateId) {
+          map.setFeatureState({source: 'states', id: hoveredStateId}, { hover: false});
         }
-    };
-
-    map.on('style.load', function () {
-        addDataOnMap('baptistry-france-unconfirmed', 'data/france.json', filterByConfirmed("false"), '#666666', '');
-        addDataOnMap('baptistry-france-confirmed', 'data/france.json', filterByConfirmed("true"), '#000000', '-red');
-        //addDataOnMap('baptistry-italy-confirmed', 'data/italy.json', filterByConfirmed("true"), '#000000', '-red');
-        //addDataOnMap('baptistry-austria-confirmed', 'data/austria.json', filterByConfirmed("true"), '#000000', '-red');
-        //addDataOnMap('baptistry-germany-confirmed', 'data/germany.json', filterByConfirmed("true"), '#000000', '-red');
-        //addDataOnMap('baptistry-liechtenstein-confirmed', 'data/liechtenstein.json', filterByConfirmed("true"), '#000000', '-red');
-        //addDataOnMap('baptistry-switzerland-confirmed', 'data/switzerland.json', filterByConfirmed("true"), '#000000', '-red');
-        //jaddDataOnMap('baptistry-belgium-confirmed', 'data/belgium.json', filterByConfirmed("true"), '#000000', '-red');
+        hoveredStateId = e.features[0].id;
+        map.setFeatureState({source: 'states', id: hoveredStateId}, { hover: true});
+      }
     });
 
-    // When a click event occurs near a marker icon, open a popup at the location of
-    // the feature, with description HTML from its properties.
-    map.on('click', function (e) {
-        map.featuresAt(e.point, {layer: 'baptistry-france-confirmed', radius: 10, includeGeometry: true}, function (err, features) {
-            if (err || !features.length)
-                return;
-
-            var feature = features[0];
-
-            new mapboxgl.Popup()
-                    .setLngLat(feature.geometry.coordinates)
-                    .setHTML(feature.properties.name)
-                    .addTo(map);
-        });
+    // When the mouse leaves the state-fill layer, update the feature state of the
+    // previously hovered feature.
+    map.on("mouseleave", "state-fills", function() {
+      if (hoveredStateId) {
+        map.setFeatureState({source: 'states', id: hoveredStateId}, { hover: false});
+      }
+      hoveredStateId =  null;
     });
+  });
 
-    // Use the same approach as above to indicate that the symbols are clickable
-    // by changing the cursor style to 'pointer'.
-    map.on('mousemove', function (e) {
-        map.featuresAt(e.point, {layer: 'baptistry-france-confirmed', radius: 10}, function (err, features) {
-            map.getCanvas().style.cursor = (!err && features.length) ? 'pointer' : '';
-        });
+*/
+  // When a click event occurs near a marker icon, open a popup at the location of
+  // the feature, with description HTML from its properties.
+  map.on('click', function (e) {
+    map.featuresAt(e.point, {layer: 'baptistry-france-confirmed', radius: 10, includeGeometry: true}, function (err, features) {
+      if (err || !features.length) {
+        return;
+      }
+
+      var feature = features[0];
+
+      new mapboxgl.Popup()
+      .setLngLat(feature.geometry.coordinates)
+      .setHTML(feature.properties.name)
+      .addTo(map);
     });
+  });
+
+  // Use the same approach as above to indicate that the symbols are clickable
+  // by changing the cursor style to 'pointer'.
+  map.on('mousemove', function (e) {
+    map.featuresAt(e.point, {layer: 'baptistry-france-confirmed', radius: 10}, function (err, features) {
+      map.getCanvas().style.cursor = (!err && features.length) ? 'pointer' : '';
+    });
+  });
 
 
 </script>

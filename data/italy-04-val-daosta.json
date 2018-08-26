@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "name": "Italy - Val d'Aosta",
+  "features": [
+
+    { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.205011000000013, 45.6912125] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Villeneuve, Valle d'Aosta", "shortname": "Villeneuve" } },
+    { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.313076200000069, 45.7349551] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Aosta, Valle d'Aosta", "shortname": "Aosta" } }
+
+  ]
+}

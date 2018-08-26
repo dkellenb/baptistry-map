@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "name": "Italy - Piemonte",
+  "features": [
+
+    { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.552958100000069, 45.6771019] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Agrate Conturbia, Piemonte", "shortname": "Agrate Conturbia" } },
+    { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.206425699999954, 44.90075119999999] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Asti, Piemonte", "shortname": "Asti" } },
+    { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.505581399999983, 45.9089803] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Baveno, Piemonte", "shortname": "Baveno" } },
+    { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.058339700000033, 45.56288420000001] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Biella, Piemonte", "shortname": "Biella" } },
+    { "id": "05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.8275551000000405, 45.008885] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "true", "name": "Chieri, Piemonte", "shortname": "Chieri" } },
+    { "id": "06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.46317410000006, 45.6762698] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "true", "name": "Cureggio, Piemonte", "shortname": "Cureggio" } },
+    { "id": "07", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.384258400000022, 45.5560059] }, "properties": { "nr": "07", "booknr": "07", "confirmed": "true", "name": "Lenta, Piemonte", "shortname": "Lenta" } },
+    { "id": "08", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.465747899999997, 45.9442859] }, "properties": { "nr": "08", "booknr": "08", "confirmed": "true", "name": "Mergozzo Montorfano, Piemonte", "shortname": "Mergozzo Montorfano" } },
+    { "id": "09", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.622161199999937, 45.44692999999999] }, "properties": { "nr": "09", "booknr": "09", "confirmed": "true", "name": "Novara, Piemonte", "shortname": "Novara" } },
+    { "id": "10", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.671792099999948, 45.3504395] }, "properties": { "nr": "10", "booknr": "10", "confirmed": "true", "name": "San Ponso Canavese, Piemonte", "shortname": "San Ponso Canavese" } },
+    { "id": "11", "type": "Feature", "geometry": { "type": "Point", "coordinates": [7.829276199999981, 45.5488937] }, "properties": { "nr": "11", "booknr": "11", "confirmed": "true", "name": "Settimo Vittone, Piemonte", "shortname": "Settimo Vittone" } }
+
+  ]
+}

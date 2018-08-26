@@ -1,0 +1,15 @@
+{
+  "type": "FeatureCollection",
+  "name": "Italy - Campania",
+  "features": [
+
+    { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [14.268124400000033, 40.8517746] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Napoli, Campania", "shortname": "Napoli" } },
+    { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [15.129102699999976, 40.5319728] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Altavilla Silentina, Campania", "shortname": "Altavilla Silentina" } },
+    { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [14.51600899999994, 40.9454471] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Cimitile, Campania", "shortname": "Cimitile" } },
+    { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [14.053858900000023, 40.8483844] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Cuma, Campania", "shortname": "Cuma" } },
+    { "id": "05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [14.996742499999982, 41.0432362] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "true", "name": "Mirabella Eclano, Campania", "shortname": "Mirabella Eclano" } },
+    { "id": "06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [14.681506300000024, 40.7504385] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "true", "name": "Nocera Superiore, Campania", "shortname": "Nocera Superiore" } },
+    { "id": "07", "type": "Feature", "geometry": { "type": "Point", "coordinates": [15.590801499999998, 40.4019157] }, "properties": { "nr": "07", "booknr": "07", "confirmed": "true", "name": "Sala Consilina, Campania", "shortname": "Sala Consilina" } }
+
+  ]
+}

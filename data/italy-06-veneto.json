@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "name": "Italy - Veneto",
+  "features": [
+
+    { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.657374, 45.638340] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Cittanova, Veneto", "shortname": "Cittanova" } },
+    { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.842294000000038, 45.7572285] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Concordia Sagitaria, Veneto", "shortname": "Concordia Sagitaria" } },
+    { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.90058369999997, 46.0178511] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Feltre, Veneto", "shortname": "Feltre" } },
+    { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.876761100000067, 45.4064349] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Pàdova, Veneto", "shortname": "Pàdova" } },
+    { "id": "05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.415254600000026, 45.4963063] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "true", "name": "Torcello, Veneto", "shortname": "Torcello" } },
+    { "id": "06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.243043700000044, 45.6668893] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "true", "name": "Treviso, Veneto", "shortname": "Treviso" } },
+    { "id": "07", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.31551509999997, 45.4408474] }, "properties": { "nr": "07", "booknr": "07", "confirmed": "true", "name": "Venezia, Veneto", "shortname": "Venezia" } },
+    { "id": "08", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.991621500000065, 45.43838419999999] }, "properties": { "nr": "08", "booknr": "08", "confirmed": "true", "name": "Verona, Veneto", "shortname": "Verona" } },
+    { "id": "09", "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.535421400000018, 45.5454787] }, "properties": { "nr": "09", "booknr": "09", "confirmed": "true", "name": "Vicenza, Veneto", "shortname": "Vicenza" } }
+
+  ]
+}

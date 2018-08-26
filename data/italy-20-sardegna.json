@@ -1,0 +1,13 @@
+{
+  "type": "FeatureCollection",
+  "name": "Italy - Sicilia",
+  "features": [
+
+    { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.508089700000028, 40.0934232] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Cornus, Sardegna", "shortname": "Cornus" } },
+    { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.175792099999967, 39.3772093] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Dolianova, Sardegna", "shortname": "Dolianova" } },
+    { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.825250200000028, 39.98276] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Fordogianus, Sardegna", "shortname": "Fordogianus" } },
+    { "id": "05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.441019099999949, 39.8734381] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "true", "name": "Tharos, Sardegna", "shortname": "Tharos" } },
+    { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [8.53893830000004, 39.9738175] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Nuracchi, Sardegna", "shortname": "Nuracchi" } }
+
+  ]
+}

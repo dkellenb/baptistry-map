@@ -1,0 +1,11 @@
+{
+  "type": "FeatureCollection",
+  "name": "Italy - Trentino - Alto Adige",
+  "features": [
+
+    { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.237381099999993, 46.3781943] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Altenburg, Trentino – Alto Adige", "shortname": "Altenburg" } },
+    { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.568065899999965, 46.6444647] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Sabiona/Säben, Trentino – Alto Adige", "shortname": "Sabiona/Säben" } },
+    { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.242108400000006, 46.5384622] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Terlano, Trentino – Alto Adige", "shortname": "Terlano" } }
+
+  ]
+}

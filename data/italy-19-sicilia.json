@@ -1,0 +1,12 @@
+{
+  "type": "FeatureCollection",
+  "name": "Italy - Sicilia",
+  "features": [
+
+    { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.054690899999969, 37.9739764] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Isola Marettimo, Sicilia", "shortname": "Isola Marettimo" } },
+    { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [15.55401519999998, 38.1938137] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Messina, Sicilia", "shortname": "Messina" } },
+    { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.82521769999994, 37.5833724] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Selimunte, Sicilia", "shortname": "Selimunte" } },
+    { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [15.286586100000022, 37.0754739] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Siracusa, Sicilia", "shortname": "Siracusa" } }
+
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "type": "FeatureCollection",
+  "name": "Italy - Emilia Romagna",
+  "features": [
+
+    { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [11.342616200000066, 44.494887] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Bologna, Emilia Romagna", "shortname": "Bologna" } },
+    { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.870467599999984, 44.8534249] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Castell'Arquato, Emilia Romagna", "shortname": "Castell'Arquato" } },
+    { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.179353200000037, 44.6940053] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Comaccio, Emilia Romagna", "shortname": "Comaccio" } },
+    { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [10.327903600000013, 44.801485] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Parma, Emilia Romagna", "shortname": "Parma" } },
+    { "id": "05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.20352939999998, 44.4183598] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "true", "name": "Ravenna, Emilia Romagna", "shortname": "Ravenna" } },
+    { "id": "06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [9.670973000000004, 45.059244] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "true", "name": "Piacenza Borgotrebia, Emilia Romagna", "shortname": "Piacenza Borgotrebia" } }
+
+  ]
+}

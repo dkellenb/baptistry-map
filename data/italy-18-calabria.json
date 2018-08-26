@@ -1,0 +1,9 @@
+{
+  "type": "FeatureCollection",
+  "name": "Italy - Calabria",
+  "features": [
+
+    { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [16.915862100000027, 39.1478065] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "San Severina, Calabria", "shortname": "San Severina" } }
+
+  ]
+}

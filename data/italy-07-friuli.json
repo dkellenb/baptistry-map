@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "name": "Italy - Friuli - Venezia Giulia",
+  "features": [
+
+    { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.368719899999974, 45.76816909999999] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Aquileia, Friuli – Venezia Giulia", "shortname": "Aquileia" } },
+    { "id": "02", "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.433127000000013, 46.0801447] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "true", "name": "Cividale, Friuli – Venezia Giulia", "shortname": "Cividale" } },
+    { "id": "03", "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.386399200000028, 45.6817741] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "true", "name": "Grado, Friuli – Venezia Giulia", "shortname": "Grado" } },
+    { "id": "04", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.938129000000004, 46.40773799999999] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "true", "name": "Invilino, Friuli – Venezia Giulia", "shortname": "Invilino" } },
+    { "id": "05", "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.262911499999973, 46.197184] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "true", "name": "Nimis, Friuli – Venezia Giulia", "shortname": "Nimis" } },
+    { "id": "06", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.866843900000049, 46.4807459] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "true", "name": "Ovaro, Friuli – Venezia Giulia", "shortname": "Ovaro" } },
+    { "id": "07", "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.77681819999998, 45.6495264] }, "properties": { "nr": "07", "booknr": "07", "confirmed": "true", "name": "Trieste, Friuli – Venezia Giulia", "shortname": "Trieste" } },
+    { "id": "08", "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.23457940000003, 46.0710668] }, "properties": { "nr": "08", "booknr": "08", "confirmed": "true", "name": "Udine, Friuli – Venezia Giulia", "shortname": "Udine" } },
+    { "id": "09", "type": "Feature", "geometry": { "type": "Point", "coordinates": [13.068499699999961, 46.1847259] }, "properties": { "nr": "09", "booknr": "09", "confirmed": "true", "name": "Majano, Friuli – Venezia Giulia", "shortname": "Majano" } }
+
+  ]
+}

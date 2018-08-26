@@ -1,0 +1,9 @@
+{
+  "type": "FeatureCollection",
+  "name": "Italy - Umbria",
+  "features": [
+
+    { "id": "01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [12.110744599999975, 42.7185068] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "true", "name": "Orvieto, Umbria", "shortname": "Orvieto" } }
+
+  ]
+}
