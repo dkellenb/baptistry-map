@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "name": "Baptistries on Islas Baleares",
+  "features": [
+    { "id": "01-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [2.22360, 41.38028] }, "properties": { "nr": "01", "booknr": "01", "confirmed": "false", "name": "Barcelona: antigua Barcino ()", "shortname": "Barcelona: antigua Barcino" } },
+    { "id": "02-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [0.42749, 41.45461] }, "properties": { "nr": "02", "booknr": "02", "confirmed": "false", "name": "Seròs (Lleida) - El Bovalar", "shortname": "Seròs" } },
+    { "id": "03-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [2.00289, 41.54193] }, "properties": { "nr": "03", "booknr": "03", "confirmed": "false", "name": "Tarrasa: Antigua Egara (Barcellona)", "shortname": "Tarrasa: Antigua Egara" } },
+    { "id": "04-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [1.26159, 41.11430] }, "properties": { "nr": "04", "booknr": "04", "confirmed": "false", "name": "Tarragona (antigua Tarraco) - S. Fructuoso", "shortname": "Tarragona" } },
+
+    { "id": "05-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [0.23640, 41.48818] }, "properties": { "nr": "05", "booknr": "05", "confirmed": "false", "name": "Fraga (Huesca) - Villa Fortunatus", "shortname": "Fraga" } },
+
+    { "id": "06-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-5.54268, 42.53385] }, "properties": { "nr": "06", "booknr": "06", "confirmed": "false", "name": "Marialba de la Ribera (León)", "shortname": "Marialba de la Ribera" } },
+    { "id": "07-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-3.84627, 41.11603] }, "properties": { "nr": "07", "booknr": "07", "confirmed": "false", "name": "Las Vegas de Pedraza (Segovia)", "shortname": "Las Vegas de Pedraza" } },
+
+    { "id": "08-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-2.89336, 40.32137] }, "properties": { "nr": "08", "booknr": "08", "confirmed": "false", "name": "Recópolis - Zorita de los Canes (Guadalajara)", "shortname": "Recópolis - Zorita de los Canes" } },
+    { "id": "09-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-4.88965, 39.94440] }, "properties": { "nr": "09", "booknr": "09", "confirmed": "false", "name": "Saucedo - Talaverna la Nueva (Toledo)", "shortname": "Saucedo - Talaverna la Nueva" } },
+    { "id": "10-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-1.60434, 38.47469] }, "properties": { "nr": "10", "booknr": "10", "confirmed": "false", "name": "Tolmo de Minateda – Hellín (Albacete)", "shortname": "Tolmo de Minateda – Hellín" } },
+
+    { "id": "11-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-6.54523, 39.70128] }, "properties": { "nr": "11", "booknr": "11", "confirmed": "false", "name": "Alconétar (Cáceres)", "shortname": "Alconétar" } },
+    { "id": "12-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-6.18043, 39.49599] }, "properties": { "nr": "12", "booknr": "12", "confirmed": "false", "name": "Cáceres El Gatillo de Arriba ()", "shortname": "Cáceres El Gatillo de Arriba" } },
+    { "id": "13-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-6.59405, 38.38413] }, "properties": { "nr": "13", "booknr": "13", "confirmed": "false", "name": "Burguillos del Cerro (Badajoz)", "shortname": "Burguillos del Cerro" } },
+    { "id": "14-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-6.32635, 38.93006] }, "properties": { "nr": "14", "booknr": "14", "confirmed": "false", "name": "Mérida - Casa Herrera (Badajoz)", "shortname": "Mérida - Casa Herrera" } },
+    { "id": "15-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-6.18619, 38.95008] }, "properties": { "nr": "15", "booknr": "15", "confirmed": "false", "name": "San Pedro de Mérida (Badajoz)", "shortname": "San Pedro de Mérida" } },
+    { "id": "16-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-7.08807, 38.73972] }, "properties": { "nr": "16", "booknr": "16", "confirmed": "false", "name": "Olivenza - Valdecebadar (Badajoz)", "shortname": "Olivenza - Valdecebadar" } },
+    { "id": "17-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-7.01762, 38.75783] }, "properties": { "nr": "17", "booknr": "17", "confirmed": "false", "name": "Badajoz - Villa La Cocosa ()", "shortname": "Badajoz - Villa La Cocosa" } },
+
+    { "id": "18-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-4.78303, 38.49635] }, "properties": { "nr": "18", "booknr": "18", "confirmed": "false", "name": "Los Pedroches - El Guijo (Córdoba)", "shortname": "Los Pedroches - El Guijo" } },
+    { "id": "19-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-5.01722, 38.18929] }, "properties": { "nr": "19", "booknr": "19", "confirmed": "false", "name": "Espiel - El Germo (Córdoba)", "shortname": "Espiel - El Germo" } },
+    { "id": "20-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-3.97028, 37.71815] }, "properties": { "nr": "20", "booknr": "20", "confirmed": "false", "name": "Martos (Córdoba)", "shortname": "Martos" } },
+    { "id": "21-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-3.66891, 37.13721] }, "properties": { "nr": "21", "booknr": "21", "confirmed": "false", "name": "Gabia la Grande (Granada)", "shortname": "Gabia la Grande" } },
+    { "id": "22-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-4.99038, 36.48783] }, "properties": { "nr": "22", "booknr": "22", "confirmed": "false", "name": "San Pedro de Alcántara (Málaga)", "shortname": "San Pedro de Alcántara" } },
+    { "id": "23-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-5.99018, 37.38309] }, "properties": { "nr": "23", "booknr": "23", "confirmed": "false", "name": "Sevilla - Alcázar ()", "shortname": "Sevilla - Alcázar" } },
+    { "id": "24-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-6.15668, 37.52679] }, "properties": { "nr": "24", "booknr": "24", "confirmed": "false", "name": "Gerena (Sevilla)", "shortname": "Gerena" } },
+
+    { "id": "25-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-1.74596, 38.15107] }, "properties": { "nr": "25", "booknr": "25", "confirmed": "false", "name": "Murcia – Algezares ()", "shortname": "Murcia – Algezares" } }
+  ]
+}

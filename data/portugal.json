@@ -1,0 +1,10 @@
+{
+  "type": "FeatureCollection",
+  "name": "Baptistries in Portugal",
+  "features": [
+    { "id": "35-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-7.14371, 39.99653] }, "properties": { "nr": "35", "booknr": "35", "confirmed": "false", "name": "Idanha-a-Velha (Castelo Branco)", "shortname": "Idanha-a-Velha" } },
+    { "id": "36-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-7.48840, 39.06226] }, "properties": { "nr": "36", "booknr": "36", "confirmed": "false", "name": "Monforte - Torre de Palma (Portalegre)", "shortname": "Monforte - Torre de Palma" } },
+    { "id": "37-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-7.66251, 37.64619] }, "properties": { "nr": "37", "booknr": "37", "confirmed": "false", "name": "Mértola (Beja)", "shortname": "Mértola" } },
+    { "id": "38-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [-7.90454, 37.09490] }, "properties": { "nr": "38", "booknr": "38", "confirmed": "false", "name": "Estoi - Villa romana de Milreu (Faro)", "shortname": "Estoi - Villa romana de Milreu" } }
+  ]
+}

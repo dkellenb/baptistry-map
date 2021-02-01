@@ -1,0 +1,14 @@
+{
+  "type": "FeatureCollection",
+  "name": "Baptistries on Islas Baleares",
+  "features": [
+    { "id": "26-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [3.06804, 39.43540] }, "properties": { "nr": "26", "booknr": "26", "confirmed": "false", "name": "Campos - Son Fadrinet ()", "shortname": "Campos - Son Fadrinet" } },
+    { "id": "27-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [3.33607, 39.54423] }, "properties": { "nr": "27", "booknr": "27", "confirmed": "false", "name": "Porto Cristo – Manacor ()", "shortname": "Porto Cristo – Manacor" } },
+    { "id": "28-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [3.26408, 39.59653] }, "properties": { "nr": "28", "booknr": "28", "confirmed": "false", "name": "Manacor - Son Peretó ()", "shortname": "Manacor - Son Peretó" } },
+
+    { "id": "29-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [4.22200, 39.88374] }, "properties": { "nr": "29", "booknr": "29", "confirmed": "false", "name": "Farnas - Es Fornás de Torelló ()", "shortname": "Farnas - Es Fornás de Torelló" } },
+    { "id": "30-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [4.231405, 39.885574] }, "properties": { "nr": "30", "booknr": "30", "confirmed": "false", "name": "Es Fornells – Cap des Port ()", "shortname": "Es Fornells – Cap des Port" } },
+    { "id": "31-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [4.28728, 39.88655] }, "properties": { "nr": "31", "booknr": "31", "confirmed": "false", "name": "Mahon - Isla del Rey ()", "shortname": "Mahon - Isla del Rey" } },
+    { "id": "32-01", "type": "Feature", "geometry": { "type": "Point", "coordinates": [4.07892, 39.89627] }, "properties": { "nr": "32", "booknr": "32", "confirmed": "false", "name": "Son Bou ()", "shortname": "Son Bou" } }
+  ]
+}
